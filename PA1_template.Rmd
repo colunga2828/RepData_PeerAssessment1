@@ -8,18 +8,26 @@ output:
 
 ## Loading and preprocessing the data
 
-
+    steps             date                        interval        weekday         
+ Min.   :  0.00   Min.   :2012-10-01 00:00:00   Min.   :   0.0   Length:17568      
+ 1st Qu.:  0.00   1st Qu.:2012-10-16 00:00:00   1st Qu.: 588.8   Class :character  
+ Median :  0.00   Median :2012-10-31 00:00:00   Median :1177.5   Mode  :character  
+ Mean   : 37.38   Mean   :2012-10-30 23:32:27   Mean   :1177.5                     
+ 3rd Qu.: 12.00   3rd Qu.:2012-11-15 00:00:00   3rd Qu.:1766.2                     
+ Max.   :806.00   Max.   :2012-11-30 00:00:00   Max.   :2355.0                     
+ NA's   :2304 
 
 ## What is mean total number of steps taken per day?
 
-
+9354.23
 
 ## What is the average daily activity pattern?
-
+ 835
 
 
 ## Imputing missing values
 
-
+2304
 
 ## Are there differences in activity patterns between weekdays and weekends?
+Yes
